@@ -1,0 +1,27 @@
+# Project TODO
+
+- [x] Establish 40U visual identity: elegant, warm, playful, and highly legible for adults above 40.
+- [x] Build public mobile-first home and upcoming events experience.
+- [x] Add event categories for social, sports, reading, yoga, workshop, art, movie, coffee, and casual hangout gatherings.
+- [x] Add global city/region event browsing with Singapore as 40U headquarters.
+- [x] Implement Supabase email/password sign-up page.
+- [x] Implement Supabase email/password sign-in page.
+- [x] Implement Supabase password-reset request and recovery flow.
+- [x] Add honour-system 40+ invitation copy without collecting, displaying, or verifying birth years.
+- [x] Require authentication before event registration.
+- [x] Collect member name, email, and birthday month/day only.
+- [x] Let authenticated members view only their own registrations.
+- [x] Protect the /admin route so only triftan88@gmail.com can access administrator features.
+- [x] Let the administrator create, edit, publish, archive, and manage events.
+- [x] Let the administrator configure capacities and view/manage attendee registrations.
+- [x] Add secure Supabase schema and row-level security policies for public events, member-owned registrations, and admin-only operations.
+- [x] Add capacity-aware registration validation and friendly success/error states.
+- [x] Add responsive accessibility details: large type, generous touch targets, focus states, reduced-motion support, and readable contrast.
+- [x] Add Vitest coverage for auth guards, registration ownership, admin authorization, and capacity rules. (Policy-contract and admin-guard tests cover the client-configurable rules; live authenticated RLS verification remains a launch check.)
+- [x] Add Supabase setup and environment-variable documentation.
+- [x] Add GitHub and Vercel deployment documentation for the provided repository and automatic deployment flow.
+- [x] Run type-check, tests, build, and visual verification.
+- [ ] Commit the completed project and prepare the repository for GitHub/Vercel delivery.
+- [x] Implement password recovery completion UI and secure Supabase password update.
+- [x] Replace destructive event deletion with archive/unarchive behavior.
+- [x] Add admin attendee-management actions such as removing registrations.
